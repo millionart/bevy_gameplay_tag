@@ -3,7 +3,7 @@
 一个面向 Bevy 游戏引擎的层级化 Gameplay Tag 系统，设计灵感来自虚幻引擎的 Gameplay Tags。
 
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
-[![Bevy](https://img.shields.io/badge/Bevy-0.19-blue)](https://bevyengine.org)
+[![Bevy](https://img.shields.io/badge/Bevy-0.20-blue)](https://bevyengine.org)
 
 [English](README.md) | [简体中文](README_zh.md)
 
@@ -24,8 +24,8 @@
 
 ```toml
 [dependencies]
-bevy_gameplay_tag = "0.3.0"
-bevy = "0.19.0"
+bevy_gameplay_tag = { git = "https://github.com/millionart/bevy_gameplay_tag", branch = "codex/bevy-0.20" }
+bevy = "0.20.1"
 ```
 
 加载插件并生成一个标签容器实体：
@@ -372,6 +372,7 @@ src/
 
 | Bevy 版本 | 插件版本 |
 | --------- | -------- |
+| 0.20.1       | `codex/bevy-0.20` |
 | 0.19.0    | 0.3.0    |
 
 ## 许可证

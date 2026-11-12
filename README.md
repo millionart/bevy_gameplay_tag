@@ -3,7 +3,7 @@
 A hierarchical gameplay tag system for the Bevy game engine, inspired by Unreal Engine's Gameplay Tags.
 
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
-[![Bevy](https://img.shields.io/badge/Bevy-0.19-blue)](https://bevyengine.org)
+[![Bevy](https://img.shields.io/badge/Bevy-0.20-blue)](https://bevyengine.org)
 
 [English](README.md) | [简体中文](README_zh.md)
 
@@ -24,8 +24,8 @@ Add the crate to your `Cargo.toml`:
 
 ```toml
 [dependencies]
-bevy_gameplay_tag = "0.3.0"
-bevy = "0.19.0"
+bevy_gameplay_tag = { git = "https://github.com/millionart/bevy_gameplay_tag", branch = "codex/bevy-0.20" }
+bevy = "0.20.1"
 ```
 
 Load the plugin and spawn a tag container:
@@ -382,6 +382,7 @@ src/
 
 | Bevy Version | Plugin Version |
 |--------------|----------------|
+| 0.20.1       | `codex/bevy-0.20` |
 | 0.19.0       | 0.3.0          |
 
 ## License
